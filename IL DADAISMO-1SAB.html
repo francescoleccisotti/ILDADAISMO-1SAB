@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
+
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+  <div class="hero">
+    <div class="hero__content reveal">
+      <p class="intro-text">1 SAB</p>
+      <h1 class="big-text">Il Dadaismo</h1>
+    </div>
+    <video autoplay muted loop id="video-back">
+      <source src="video-back.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="bg-cover mt-3">
+    <div class="bg-cover__title reveal">
+      <h3 class="big-text tw">COME NASCE</h3>
+    </div>
+    <div class="bg-cover__text reveal">
+
+
+      <p1 class="tw">Il dadaismo o dada è un movimento artistico che nasce in Svizzera a Zurigo nel 1916.
+         Qui avevano trovato rifugio molti artisti intellettuali per sfuggire alla prima guerra mondiale, poiché la Svizzera era un paese neutrale. Così esso nasce il 5 febbraio 1916.
+         Il Dadaismo aveva proposto il rifiuto della ragione e della logica, ed enfatizzava la stravaganza, la derisione e l'umorismo. Inoltre disprezza e ridicolizza tutte le forme d’arte occidentali, quelle che secondo loro hanno causato la guerra; per questo vogliono prendere in giro l’arte occidentale. </p1>
+
+    </div>
+  </div>
+
+  <div class="grid mt-3">
+    <div class="col reveal">
+      <h3 class="big-text">MAN RAY</h3>
+    </div>
+    <div class="col reveal">
+
+  <p2>Emmanuel Radnitzky conosciuto per lo più come Man Ray, che significa Uomo Raggio, nasce a Filadelfia da una famiglia di immigrati Russi di origine Ebrea e cresce a New York.
+Qui lavora come disegnatore grafico riuscendo poi a completare gli studi, e dopo aver completato la scuola rinunciò a una borsa di studio per dedicarsi all’arte.
+Divenne poi amico di Marcel Duchamp con il quale inizia una grande carriera artistica.
+Muore poi a Parigi. </p2>
+
+
+</div>
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+  <div class="panel-blue mt-3">
+
+
+      <div class="col panel-blue__text">
+        <div class="grid">
+          <div class="col reveal">
+            <h3 class="big-text tw">Cadeau</h3>
+          </div>
+          <div class="col reveal">
+            <p3>Una delle sculture più famose create da Man Ray è stata Cadeau, un ferro da stiro in ghisa con 14 chiodi sul fondo, rendendo l’oggetto inutilizzabile. Il suo intento è quindi di ridicolizzare e prendere in giro le opere occidentali, per esempio rendendo inutile un oggetto. </p3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<footer class="footer">
+  <div class="grid">
+    <div class="col reveal">
+      <h4 class="normal-text tw">Francesco Leccisotti</h4>
+
+    </div>
+    <div class="col reveal">
+      <h4 class="normal-text tw">Samuele Carafa</h4>
+
+    </div>
+    <div class="col reveal">
+      <h4 class="normal-text tw">Andrea Versaci</h4>
+
+    </div>
+    <div class="col reveal">
+      <h4 class="normal-text tw">Giovanni Morrica</h4>
+
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    /* Open Panel */
+    $( ".hamburger" ).on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+
+  });
+
+
+  ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+  ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
+
+
+
+</script>
+
+
+</body>
+</html>
